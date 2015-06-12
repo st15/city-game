@@ -13,7 +13,7 @@ $(document).ready(function(){
 	
     $("#button-start-new-game").click(onStartNewGame);
 	
-    $("#button-guess").click(function(){
+    $("#button-guess").click(function() {
 		if (isPlaying) {
 			checkCity($("#city-input").val());
 			updateView();
